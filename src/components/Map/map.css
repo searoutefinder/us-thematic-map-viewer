@@ -1,0 +1,6 @@
+.maplibregl-map {
+  position: absolute !important;
+}
+.maplibregl-ctrl-attrib {
+  display: none !important;
+}

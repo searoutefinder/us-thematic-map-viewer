@@ -1,0 +1,68 @@
+{
+  "us_states_all": ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", 
+  "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"],
+  "na_option": {"legend": "N/A", "color": "#8f8f8f"},
+  "maps": {
+    "filed_cos_resolution": {
+      "name": "Filed COS Resolution",
+      "legend": "Filed COS Resolution",
+      "color": "#5acc52",
+      "states": ["AK", "AL", "AR", "AZ", "CA", "CO", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "MA", "MD", "ME", "MI", "MN", "MS", "MO", "MT", "NE", "NV", 
+      "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VA", "VT", "WA", "WI", "WV", "WY"]
+    },
+    "passed_commitee_hearing": {
+      "name": "Passed Committee Hearing",
+      "legend": "Passed Committee Hearing",
+      "color": "#d49e15",
+      "states": ["AK", "AL", "AR", "AZ","FL", "GA","HI", "ID","IN", "IA", "KS", "LA", "MA","MI","MS", "MO","MT", "NE","NH","NM","NC", "ND","OK","PA","SC", "SD", "TN", "TX", "UT",
+       "VA","WI", "WV", "WY"]
+    },
+    "passed_cos_resolution": {
+      "name": "Passed COS Resolution",
+      "legend": "Passed COS Resolution",
+      "color": "#9415d4",
+      "states": ["AK", "AL", "AR", "AZ","FL", "GA", "IN", "LA", "MO", "MS", "ND", "NE", "OK", "TN", "TX", "UT", "WI", "WV", "SC"]
+    },
+    "passed_legislative_chamber": {
+      "name": "Passed Legislative Chamber",
+      "legend": "Passed Legislative Chamber",
+      "color": "#D34DA2",
+      "states": ["AK", "AL", "AR", "AZ","FL", "GA","IA","LA","MS","ME", "NH", "NM","NC", "ND","SD", "TN","VA", "IN", "UT", "OK", "MO", "TX", "SC", "WI", "WV", "WY"]
+    },
+    "passed_34": {
+      "name": "Passed 34",
+      "passed_34_ready": {
+        "legend": "34 Ready Passed",
+        "color": "#011978",
+        "states": ["AZ", "UT", "WY", "ND", "SD", "TX", "OK", "AR", "LA", "MS", "TN", "GA", "FL", "IN", "WI", "AK"]
+      },
+      "active_34_ready": {
+        "legend": "34 Ready Active", 
+        "color": "#3db1ff",
+        "states": ["NE", "KS", "MO", "IA", "MN", "OH", "KY", "WV", "NC", "SC", "VA", "MD", "DE", "NJ", "NY"]
+      }     
+    },
+    "legislature": {
+      "name": "Legislatures",
+      "rep": {
+        "legend": "Rep. Controlled State Legislature",
+        "color": "#FF0000",
+        "states": ["WI", "AK", "AZ", "UT", "MT", "ID", "ND", "SD", "NE", "KS", "IA", "MO", "WI", "OK", "TX", "AR", "LA", "MS", "AL", "TN", "KY", "IN", "OH", "PA", "SC", "NC", 
+        "GA", "FL", "NH", "WV", "WY"]
+      },
+      "dem": {
+        "legend": "Dem. Controlled State Legislature",
+        "color": "#0023b0",
+        "states": ["HI", "WA", "OR", "CA", "NM",  "NV", "CO", "IL", "MI", "NY", "MD", "NJ", "DE", "CT", "RI", "MA", "VT", "ME"]
+      },
+      "divided": {
+        "legend": "Divided Chamber Legislature",
+        "color": "transparent",
+        "pattern": {
+          "colors": ["#FF0000", "#0023b0"]
+        },
+        "states": ["MN", "VA"]
+      }           
+    }
+  }
+}
